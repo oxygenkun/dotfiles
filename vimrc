@@ -37,3 +37,7 @@ setlocal foldlevel=1 " 设置折叠层数为 1
 nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR> " 用空格键来开关折叠
 " 与windows共享剪贴板
 set clipboard+=unnamed
+" netrw
+let g:netrw_liststyle=3 "tree style
+let g:netrw_browse_split=4 "open file in new vertival split
+let g:netrw_winsize=25 "25% of the page

@@ -105,6 +105,3 @@ export LANG=en_US.UTF-8
 # zsh scheme : typewritten
 export TYPEWRITTEN_PROMPT_LAYOUT="pure"
 export TYPEWRITTEN_RELATIVE_PATH="adaptive"
-
-# mysql
-export PATH="/usr/local/opt/mysql-client/bin:$PATH"
